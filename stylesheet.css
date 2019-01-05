@@ -1,0 +1,51 @@
+h1 {
+	color :white;
+	background-image:url("/Users/ryosei/Downloads/mokuba/Sukeru/image/header.jpeg");
+}
+
+h2 {
+	color :black;
+}
+
+h3 {
+	color :white;
+	background-color :#49C628; 
+}
+
+#detail {
+	font-size: 10px;
+}
+
+.farmer-container {
+	display: grid;
+	grid-template-rows: 325px 325px 325px;
+    	grid-template-columns: 325px 325px;
+}
+
+#farmer1 {
+	grid-row: 1;
+  	grid-column: 1;
+}
+
+#farmer2 {
+	grid-row: 1;
+	grid-column: 2;
+}
+
+#farmer3 {
+	grid-row: 2;
+	grid-column: 1;
+}
+#farmer4 {
+	grid-row: 2;
+	grid-column: 2;
+}
+#farmer5 {
+	grid-row: 3;
+	grid-column: 1;
+}
+
+#farmer6 {
+	grid-row: 3;
+	grid-column: 2;
+}
